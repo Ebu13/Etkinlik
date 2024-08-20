@@ -151,7 +151,7 @@ const BelediyePage = () => {
   async function handleSaveBelediye(values: BelediyeFormValues) {
     setIsLoading(true);
     try {
-      console.log("calıstı", values);
+      console.log("çalıstı", values);
       const response = await TanimlarAPI.saveBelediye(values);
       console.log(response.data);
       if (response.data.sonuc === 0) {
