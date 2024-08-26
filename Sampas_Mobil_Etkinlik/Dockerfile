@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y tzdata \
     && ln -snf /usr/share/zoneinfo/Europe/Istanbul /etc/localtime \
     && echo "Europe/Istanbul" > /etc/timezone
 
-EXPOSE 5262
+EXPOSE 80
 
 # SDK imajı kullanarak uygulamayı derliyoruz
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
@@ -28,7 +28,7 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 
 # Ortam değişkenlerini ayarlıyoruz
-ENV ASPNETCORE_URLS=http://*:5262
+ENV ASPNETCORE_URLS=http://*:80
 ENV ASPNETCORE_ENVIRONMENT=Development
 
 ENTRYPOINT ["dotnet", "Sampas_Mobil_Etkinlik.dll"]
