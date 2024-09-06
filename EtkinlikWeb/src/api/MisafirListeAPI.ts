@@ -8,7 +8,7 @@ class MisafirListeAPI extends BaseAPI {
   
 
   constructor () {
-    const baseUrl = "http://localhost:5262/api/" + "Misafir";
+    const baseUrl = "http://192.168.34.13:5262/api/" + "Misafir";
     super(baseUrl);
   }
 

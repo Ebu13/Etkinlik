@@ -54,10 +54,6 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.1.35, )"
-            },
             "Dapper.Oracle": {
               "target": "Package",
               "version": "[2.0.3, )"
@@ -74,10 +70,6 @@
               "target": "Package",
               "version": "[5.3.12, )"
             },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
             "Oracle.ManagedDataAccess.Core": {
               "target": "Package",
               "version": "[23.5.1, )"
@@ -85,10 +77,6 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[8.0.1, )"
             }
           },
           "imports": [
@@ -110,9 +98,4 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    }
-  }
-}
+          "runtimeIdentifierGraphPath": "C:\\Program File

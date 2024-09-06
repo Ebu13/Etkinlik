@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc.Filters;
+﻿using NLog;
+using NLog.Extensions.Logging;
+using NLog.Web;
+using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc;
 using Sampas_Mobil_Etkinlik.Models;
 using Sampas_Mobil_Etkinlik.Common.Constants;

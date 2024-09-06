@@ -1,13 +1,13 @@
 ﻿using AspNetCoreRateLimit;
 using Dapper;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Microsoft.IdentityModel.Tokens;
 using Sampas_Mobil_Etkinlik.Core.Config;
 using Sampas_Mobil_Etkinlik.Data.Attributes;
 using Sampas_Mobil_Etkinlik.Data.Repositories.Context;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
 using static Dapper.SqlMapper;
 
